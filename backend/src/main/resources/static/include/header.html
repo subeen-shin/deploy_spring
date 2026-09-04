@@ -1,0 +1,28 @@
+<header>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	  <div class="container">
+	    <a class="navbar-brand" href="/">Logo</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+	      <ul class="navbar-nav">
+	        <li class="nav-item role-user">
+	          <a class="nav-link" href="/admin/main.html">관리자 페이지</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="/post/list.html">게시글</a>
+	        </li>
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">마이페이지</a>
+	          <ul class="dropdown-menu">
+	            <li class ="role-guest"><a class="dropdown-item" href="/signup.html">회원가입</a></li>
+	            <li class ="role-guest"><a class="dropdown-item" href="/login.html">로그인</a></li>
+	            <li class="role-user"><a class="dropdown-item" href="/logout.html" onclick="logout(event)">로그아웃</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+</header>

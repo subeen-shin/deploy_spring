@@ -1,13 +1,13 @@
-package kr.fast.backend;
+package kr.fast.community;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BackendApplication {
+public class CommunityApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BackendApplication.class, args);
+		SpringApplication.run(CommunityApplication.class, args);
 	}
 
 }
