@@ -47,6 +47,7 @@ jobs:
           -e DB_URL="${{ secrets.DB_URL }}" \
           -e DB_USERNAME="${{ secrets.DB_USERNAME }}" \
           -e DB_PASSWORD="${{ secrets.DB_PASSWORD }}" \
+          -e JWT_SECRET="${{ secrets.JWT_SECRET }}" \
           ${{ secrets.DOCKER_USERNAME }}/sample:latest
           # 미사용 이미지 삭제 (용량 확보)
           sudo docker image prune -f
